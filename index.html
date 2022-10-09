@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="short-cut icon" href="https://cdn-icons-png.flaticon.com/512/3634/3634953.png">
+    <title>Birthday Calculator</title>
+</head>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+        <div class="container">
+        <div class="box">
+            <form>
+               <div class="base">
+                <h4>Birthday Calculator</h4>
+               </div>
+               <div class="block">
+                <p class="title">Date</p>
+                <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required>
+               </div>
+               <div class="block">
+                <p class="title">Month</p>
+                <input type="text" name="date" id="month" placeholder="mm" minlength="1" maxlength="2" required>
+               </div>
+               <div class="block">
+                <p class="title">Year</p>
+                <input type="text" name="date" id="year" placeholder="yyyy" minlength="4" maxlength="4" required>
+               </div>
+              <div class="base">
+                <input type="button" name="submit"  value="submit" onclick="age()"/>
+              </div>
+              <div class="age" id="age">
+                
+              </div>
+            </form>
+        </div>
+    </div>
+</div>
+<body>
+<script src="main.js"></script>
+</body>
+</html>
